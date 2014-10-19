@@ -3,9 +3,8 @@ $(document).ready(function() {
 		parallax();
 	});
 
-	$('a').click(function(event) {
-		var temp = $(event.target).attr('class');
-		var id = '#slide-' + temp;
+	$('header a').click(function(event) {
+        var id = $(event.target).attr("href");
 		$('html, body').animate({scrollTop: $(id).offset().top}, 1200,
 			function() {
 				parallax();

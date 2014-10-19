@@ -3,46 +3,168 @@
 <head>
 	<meta charset="UTF-8">
 	<title>The 11 Phases</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/icons.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/resizeHeight.js"></script>
 	<script src="js/parallax.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a class="home" href="#slide-home">Home</a></li>
-				<li><a class="p1" href="#slide-p1">P1</a></li>
-				<li><a class="p2" href="#slide-p2">P2</a></li>
-				<li><a class="p3" href="#slide-p3">P3</a></li>
-				<li><a class="p4" href="#slide-p4">P4</a></li>
-				<li><a class="p5" href="#slide-p5">P5</a></li>
-				<li><a class="p6" href="#slide-p6">P6</a></li>
-				<li><a class="p7" href="#slide-p7">P7</a></li>
-				<li><a class="p8" href="#slide-p8">P8</a></li>
-				<li><a class="p9" href="#slide-p9">P9</a></li>
-				<li><a class="p10" href="#slide-p10">P10</a></li>
-				<li><a class="p11" href="#slide-p11">P11</a></li>
-				<li><a class="about" href="#slide-about">About</a></li>
-			</ul>
-		</nav>
+	<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#slide-home">Parallax</a>
+            </div>
+            <nav class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a class="p1" href="#slide-p1">P1</a></li>
+                    <li><a class="p2" href="#slide-p2">P2</a></li>
+                    <li><a class="p3" href="#slide-p3">P3</a></li>
+                    <li><a class="p4" href="#slide-p4">P4</a></li>
+                    <li><a class="p5" href="#slide-p5">P5</a></li>
+                    <li><a class="p6" href="#slide-p6">P6</a></li>
+                    <li><a class="p7" href="#slide-p7">P7</a></li>
+                    <li><a class="p8" href="#slide-p8">P8</a></li>
+                    <li><a class="p9" href="#slide-p9">P9</a></li>
+                    <li><a class="p10" href="#slide-p10">P10</a></li>
+                    <li><a class="p11" href="#slide-p11">P11</a></li>
+                    <li><a class="about" href="#slide-about">About</a></li>
+                </ul>
+            </nav>
+        </div>
 	</header>
 	<div class="content">
-		<div id="slide-home"><p>H</p></div>
-		<div id="slide-p1"><p>1</p></div>
-		<div id="slide-p2"><p>2</p></div>
-		<div id="slide-p3"><p>3</p></div>
-		<div id="slide-p4"><p>4</p></div>
-		<div id="slide-p5"><p>5</p></div>
-		<div id="slide-p6"><p>6</p></div>
-		<div id="slide-p7"><p>7</p></div>
-		<div id="slide-p8"><p>8</p></div>
-		<div id="slide-p9"><p>9</p></div>
-		<div id="slide-p10"><p>10</p></div>
-		<div id="slide-p11"><p>11</p></div>
-		<div id="slide-about"><p>A</p></div>
+		<div id="slide-home">
+            <div class="jumbotron">
+                <h1>The 11 Phases of a Web Developer's Career</h1>
+                <p>
+                    The career of a web developer is an interesting one with many slopes. Considering a learning curve this steep, you can fully expect to live through periods of frustration, enlightenment, self-righteousness, and every mindset in between. In this article, we'll have some fun, by reviewing each of these phases through the lens of a meme!
+                </p>
+            </div>
+        </div>
+		<div id="slide-p1">
+            <div class="well">
+                <h3>Phase 1 - Noob</h3>
+                <p>
+                    The career of a web developer is an interesting one with many slopes. Considering a learning curve this steep, you can fully expect to live through periods of frustration, enlightenment, self-righteousness, and every mindset in between. In this article, we'll have some fun, by reviewing each of these phases through the lens of a meme!
+                    Perhaps your greatest advantage, though, is that you have no idea how deep the rabbit hole goes. Learning HTML is the baby step
+                </p>
+            </div>
+            <div class="well">
+                <img src="img\p1.gif" class="img-responsive" style="margin:0 auto;" />
+            </div>
+        </div>
+        <div id="slide-p2">
+            <div class="well">
+                <h1>Phase 2 - The First Steps</h1>
+                <p>
+                    Though it takes a while, you'll eventually learn enough to begin taking your first steps into the coding world. While Phase 1 is the overwhelming "how/where do I start" period, Phase 2 is the one in which you slowly begin building your skill-set. Sure, the syntax for defining styles with CSS still feels foreign, but at least you're able to make a change in your freshly bought code editor and see it reflected in a web browser. That's a wonderful feeling!
+                </p>
+            </div>
+                <div class="well">
+                    <img src="img\p2.gif" class="img-responsive" style="margin:0 auto;" />
+                </div>
+        </div>
+        <div id="slide-p3">
+            <div class="well">
+                <h1>Phase 3 - Complete Frustration</h1>
+                <p>
+                    Imagine being lost in a cave, shining your flashlight down each tunnel, as you search for a way out. With each step, you hope to see a glimmer of light. Unfortunately, the learning curve in our industry is a steep one. That speckle of light won't come for a long time, I'm sorry to say. Expect to spend hundreds of hours in this phase, reading technical books over, and over, and over, as you desperately try to make sense of the madness!
+                    If the frustration becomes too overwhelming, find peace in the fact that every one of us felt that exact way at one point or another in our careers. You're not alone. Stick with it, and, before long, you'll reach the aha phase!
+                </p>
+                </div>
+                <div class="well">
+                    <img src="img\p3.gif" class="img-responsive" />
+                </div>
+        </div>
+        <div id="slide-p4">
+            <div class="well">
+                <h1>Phase 2 - The First Steps</h1>
+                <p>
+                    Though it takes a while, you'll eventually learn enough to begin taking your first steps into the coding world. While Phase 1 is the overwhelming "how/where do I start" period, Phase 2 is the one in which you slowly begin building your skill-set. Sure, the syntax for defining styles with CSS still feels foreign, but at least you're able to make a change in your freshly bought code editor and see it reflected in a web browser. That's a wonderful feeling!
+                </p>
+            </div>
+            <div class="well">
+                <img src="img\p4.gif" class="img-responsive" />
+            </div>
+        </div>
+        <div id="slide-p5">
+            <div class="jumbotron">
+                <h1>Phase 2 - The First Steps</h1>
+                <p>
+                    Though it takes a while, you'll eventually learn enough to begin taking your first steps into the coding world. While Phase 1 is the overwhelming "how/where do I start" period, Phase 2 is the one in which you slowly begin building your skill-set. Sure, the syntax for defining styles with CSS still feels foreign, but at least you're able to make a change in your freshly bought code editor and see it reflected in a web browser. That's a wonderful feeling!
+                </p>
+                <img src="img\p5.gif" class="img-responsive" />
+            </div>
+        </div>
+        <div id="slide-p6">
+            <div class="jumbotron">
+                <h1>Phase 2 - The First Steps</h1>
+                <p>
+                    Though it takes a while, you'll eventually learn enough to begin taking your first steps into the coding world. While Phase 1 is the overwhelming "how/where do I start" period, Phase 2 is the one in which you slowly begin building your skill-set. Sure, the syntax for defining styles with CSS still feels foreign, but at least you're able to make a change in your freshly bought code editor and see it reflected in a web browser. That's a wonderful feeling!
+                </p>
+                <img src="img\p6.gif" class="img-responsive" />
+            </div>
+        </div>
+        <div id="slide-p7">
+            <div class="jumbotron">
+                <h1>Phase 2 - The First Steps</h1>
+                <p>
+                    Though it takes a while, you'll eventually learn enough to begin taking your first steps into the coding world. While Phase 1 is the overwhelming "how/where do I start" period, Phase 2 is the one in which you slowly begin building your skill-set. Sure, the syntax for defining styles with CSS still feels foreign, but at least you're able to make a change in your freshly bought code editor and see it reflected in a web browser. That's a wonderful feeling!
+                </p>
+                <img src="img\p7.gif" class="img-responsive" />
+            </div>
+        </div>
+        <div id="slide-p8">
+            <div class="jumbotron">
+                <h1>Phase 2 - The First Steps</h1>
+                <p>
+                    Though it takes a while, you'll eventually learn enough to begin taking your first steps into the coding world. While Phase 1 is the overwhelming "how/where do I start" period, Phase 2 is the one in which you slowly begin building your skill-set. Sure, the syntax for defining styles with CSS still feels foreign, but at least you're able to make a change in your freshly bought code editor and see it reflected in a web browser. That's a wonderful feeling!
+                </p>
+                <img src="img\p8.gif" class="img-responsive" />
+            </div>
+        </div>
+        <div id="slide-p9">
+            <div class="jumbotron">
+                <h1>Phase 2 - The First Steps</h1>
+                <p>
+                    Though it takes a while, you'll eventually learn enough to begin taking your first steps into the coding world. While Phase 1 is the overwhelming "how/where do I start" period, Phase 2 is the one in which you slowly begin building your skill-set. Sure, the syntax for defining styles with CSS still feels foreign, but at least you're able to make a change in your freshly bought code editor and see it reflected in a web browser. That's a wonderful feeling!
+                </p>
+                <img src="img\p9.gif" class="img-responsive" />
+            </div>
+        </div>
+        <div id="slide-p10">
+            <div class="jumbotron">
+                <h1>Phase 2 - The First Steps</h1>
+                <p>
+                    Though it takes a while, you'll eventually learn enough to begin taking your first steps into the coding world. While Phase 1 is the overwhelming "how/where do I start" period, Phase 2 is the one in which you slowly begin building your skill-set. Sure, the syntax for defining styles with CSS still feels foreign, but at least you're able to make a change in your freshly bought code editor and see it reflected in a web browser. That's a wonderful feeling!
+                </p>
+                <img src="img\p10.gif" class="img-responsive" />
+            </div>
+        </div>
+		<div id="slide-about">
+            <div class="jumbotron">
+                <p>
+                    About
+                </p>
+            </div>
+		</div>
 	</div>
+    <div class="vertical-menu">
+        <button type="button" class="btn btn-default vertical-menu-button">
+            <span class="glyphicon glyphicon-chevron-up vertical-menu-button-text"></span>
+        </button>
+        <button type="button" class="btn btn-default vertical-menu-button">
+            <span class="glyphicon glyphicon-chevron-down vertical-menu-button-text"></span>
+        </button>
+    </div>
 </body>
 </html>
