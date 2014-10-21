@@ -24,7 +24,7 @@ div[id^="slide"] {
 
 .vertical-menu{
     position: fixed;
-    top:100px;
+    top: 40%;
     right: 20px;
     width: 40px;
 }
