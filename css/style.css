@@ -2,6 +2,18 @@ body {
 	overflow-y: no-display;
 }
 
+#page{
+    margin-bottom: 5px !important;
+    width: 56px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 6px !important;
+    text-align: center;
+}
+
+#logo{
+    cursor: pointer;
+}
 
 
 div[id^="slide"] {

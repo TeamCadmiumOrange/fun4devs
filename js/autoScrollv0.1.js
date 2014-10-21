@@ -13,6 +13,10 @@
  		scrollToNext();
  	});
 
+    $('#logo').click(function(){
+        scroll("#slide-p1");
+    });
+
  });
 
  $(window).bind('mousewheel', function(event) {
