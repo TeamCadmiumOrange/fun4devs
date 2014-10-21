@@ -1,3 +1,9 @@
+body {
+	overflow-y: no-display;
+}
+
+
+
 div[id^="slide"] {
 	position: relative;
 	min-height: 600px;
