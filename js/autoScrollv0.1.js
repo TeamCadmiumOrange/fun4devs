@@ -50,6 +50,9 @@
 
  function scroll(hash) {
  	//scroll & animation
+     if(hash == "#undefined")
+        return;
+
  	$('html, body').stop().animate({
  		'scrollTop': $(hash).offset().top - 50
  	}, 700, 'swing', function() {
