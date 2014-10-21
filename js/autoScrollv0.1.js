@@ -28,6 +28,7 @@
  });
 
  function scrollToSlide(event) {
+	event.preventDefault();
  	if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
  		scrollToPrew();
  	} else {
