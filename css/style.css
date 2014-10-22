@@ -13,6 +13,10 @@ body {
     background-color: #ffffff;
 }
 
+.person {
+    float: left;
+}
+
 #logo {
     cursor: pointer;
 }
@@ -94,3 +98,17 @@ div[id^="slide"] {
 .content #slide-p13 {
     background: #101e56;
 }
+
+.clearfix:after {
+    font-size: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: " ";
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack */
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

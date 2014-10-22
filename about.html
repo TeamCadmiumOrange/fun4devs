@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The 11 Phases</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/icons.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/resizeHeight.js"></script>
+    <script src="js/autoScrollv0.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span id="logo" class="navbar-brand MenuButton" data-pageid="index.html">Parallax</span>
+            </div>
+            <nav class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a class="MenuButton" href="javascript:;" data-pageid="life.html">Student life</a></li>
+                    <li><a class="MenuButton" href="javascript:;" data-pageid="about.html">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div id="slide-p1">
+            <div class="jumbotron clearfix">
+                <h1>Създатели:</h1>
+                <div class="person">
+                    <img src="http://dummyimage.com/300x300" class="img-responsive">
+                    <h2>Петър Петров</h2>
+                </div>
+                <div class="person">
+                    <img src="http://dummyimage.com/300x300" class="img-responsive">
+                    <h2>Петър Петров</h2>
+                </div>
+                <div class="person">
+                     <img src="http://dummyimage.com/300x300" class="img-responsive">
+                    <h2>Петър Петров</h2>
+                </div>
+                <div class="person">
+                    <img src="http://dummyimage.com/300x300" class="img-responsive">
+                    <h2>Петър Петров</h2>
+                </div>
+            </div>
+        </div>
+        <div id="slide-p2">
+            <div class="jumbotron">
+                <h1>Източници на информация</h1>
+                <h2><a href="http://tutsplus.com/">http://tutsplus.com/</a></h2>
+                <h2><a href="http://www.gifbin.com/">http://www.gifbin.com/</a></h2>
+                <h2><a href="http://giphy.com/">http://giphy.com/</a></h2>
+            </div>
+        </div>
+    </div>
+    <div class="vertical-menu">
+        <button id="go-up" type="button" class="btn btn-default vertical-menu-button">
+            <span class="glyphicon glyphicon-chevron-up vertical-menu-button-text"></span>
+        </button>
+        <input type="text" id="page" value="" class="form-control" readonly>
+        <button id="go-down" type="button" class="btn btn-default vertical-menu-button">
+            <span class="glyphicon glyphicon-chevron-down vertical-menu-button-text"></span>
+        </button>
+    </div>
+</body>
+</html>
