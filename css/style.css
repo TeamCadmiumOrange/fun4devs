@@ -87,6 +87,10 @@ div[id^="slide"] {
     background: #101e56;
 }
 
-.content #slide-about {
+.content #slide-p12 {
     background: #0d1845;
+}
+
+.content #slide-p13 {
+    background: #101e56;
 }
