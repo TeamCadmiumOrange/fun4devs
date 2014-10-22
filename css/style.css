@@ -1,80 +1,92 @@
 body {
-	overflow-y: hidden;
+    overflow-y: hidden;
 }
 
-#page{
+#page {
     margin-bottom: 5px !important;
     width: 56px;
     font-weight: bold;
     font-size: 12px;
     padding: 6px !important;
     text-align: center;
-	cursor:pointer;
-	background-color:#ffffff;
+    cursor: pointer;
+    background-color: #ffffff;
 }
 
-#logo{
+#logo {
     cursor: pointer;
 }
 
 
 div[id^="slide"] {
-	position: relative;
-	min-height: 600px;
+    position: relative;
+    min-height: 600px;
     padding: 70px 20px 0px 20px;
 }
 
-.vertical-menu{
+.vertical-menu {
     position: fixed;
     top: 40%;
     right: 20px;
     width: 40px;
 }
 
-.vertical-menu-button{
+.vertical-menu-button {
     margin-bottom: 5px !important;
 }
 
-.vertical-menu-button-text{
-    font-size: 30px
+.vertical-menu-button-text {
+    font-size: 30px;
 }
 
-.content #slide-home{
-	background: #647de3;
+.content #slide-home {
+    background: #647de3;
 }
-.content #slide-p1{
-	background: #536fdf;
+
+.content #slide-p1 {
+    background: #536fdf;
 }
-.content #slide-p2{
-	background: #4160dc;
+
+.content #slide-p2 {
+    background: #4160dc;
 }
-.content #slide-p3{
-	background: #3052d9;
+
+.content #slide-p3 {
+    background: #3052d9;
 }
-.content #slide-p4{
-	background: #2648cf;
+
+.content #slide-p4 {
+    background: #2648cf;
 }
-.content #slide-p5{
-	background: #2240ba;
+
+.content #slide-p5 {
+    background: #2240ba;
 }
-.content #slide-p6{
-	background: #203cac;
+
+.content #slide-p6 {
+    background: #203cac;
 }
-.content #slide-p7{
-	background: #1c369b;
+
+.content #slide-p7 {
+    background: #1c369b;
 }
-.content #slide-p8{
-	background: #19308a;
+
+.content #slide-p8 {
+    background: #19308a;
 }
-.content #slide-p9{
-	background: #162a79;
+
+.content #slide-p9 {
+    background: #162a79;
 }
-.content #slide-p10{
-	background: #132467;
+
+.content #slide-p10 {
+    background: #132467;
 }
-.content #slide-p11{
-	background: #101e56;
+
+.content #slide-p11 {
+    background: #101e56;
 }
-.content #slide-about{
-	background: #0d1845;
+
+.content #slide-about {
+    background: #0d1845;
 }
