@@ -33,6 +33,22 @@ $(window).bind('touchmove', function (event) {
     scrollToSlide(event);
 });
 
+// Up Down arrows scroll
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 38: // up
+        scrollToPrew();
+        break;
+
+        case 40: // down
+        scrollToNext();
+        break;
+
+        default: return;
+    }
+    e.preventDefault();
+});
+
 function scrollToSlide(event) {
     event.preventDefault();
     if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
