@@ -95,10 +95,20 @@ div[id^="slide"] {
     background: #101e56;
 }
 
+.jumbotron{
+    text-align: center;
+}
+
+.persons {
+    display: flex;
+}
 
 .person {
-    float: left;
-    margin: 0 80px;
+    margin: 0 auto;
+}
+
+img {
+    margin: 0 auto;
 }
 
 .clearfix:after {
