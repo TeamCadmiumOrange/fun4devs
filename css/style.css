@@ -3,13 +3,13 @@ body {
 }
 
 #page {
-    margin-bottom: 5px !important;
-    width: 56px;
-    font-weight: bold;
     font-size: 12px;
+    font-weight: bold;
+    width: 56px;
+    margin-bottom: 5px !important;
     padding: 6px !important;
-    text-align: center;
     cursor: pointer;
+    text-align: center;
     background-color: #ffffff;
 }
 
@@ -17,11 +17,10 @@ body {
     cursor: pointer;
 }
 
-
 div[id^="slide"] {
     position: relative;
     min-height: 600px;
-    padding: 70px 20px 0px 20px;
+    padding: 50px 20px 0 20px;
 }
 
 .vertical-menu {
@@ -37,6 +36,10 @@ div[id^="slide"] {
 
 .vertical-menu-button-text {
     font-size: 30px;
+}
+
+.content {
+    color: white;
 }
 
 .content #slide-home {
@@ -95,9 +98,42 @@ div[id^="slide"] {
     background: #101e56;
 }
 
-.jumbotron{
+.wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 960px;
+    height: 90%;
+    margin: auto;
     text-align: center;
-    border-radius:15px;
+    border-radius: 15px;
+}
+
+#slide-p1 .wrapper {
+    height: 70%;
+}
+
+.wrapper h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.wrapper h2 {
+    font-size: 40px;
+}
+
+.wrapper p {
+    font-size: 18px;
+    display: block;
+    float: left;
+}
+
+.wrapper img {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 8%;
 }
 
 .persons {
@@ -108,8 +144,97 @@ div[id^="slide"] {
     margin: 0 auto;
 }
 
-img {
-    margin: 0 auto;
+@media screen and (max-width: 960px) {
+    .wrapper {
+        width: 85%;
+        height: 60%;
+    }
+
+    .wrapper h1 {
+        font-size: 50px;
+        margin: 0 0 10px 0;
+    }
+
+    .wrapper h2 {
+        font-size: 30px;
+        margin: 0 0 20px 0;
+    }
+
+    .wrapper p {
+        font-size: 18px;
+        display: block;
+        float: left;
+    }
+
+    .wrapper img {
+        width: 60%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .vertical-menu {
+        display: none;
+    }
+
+    .wrapper {
+        width: 95%;
+        height: 60%;
+    }
+
+    .wrapper h1 {
+        font-size: 40px;
+        margin: 0 0 10px 0;
+    }
+
+    .wrapper h2 {
+        font-size: 25px;
+        margin: 0 0 20px 0;
+    }
+
+    .wrapper p {
+        font-size: 16px;
+        display: block;
+        float: left;
+    }
+
+    .wrapper img {
+        width: 60%;
+        margin-top: 4%;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .vertical-menu {
+        display: none;
+    }
+
+    .wrapper {
+        width: 95%;
+        height: 60%;
+    }
+
+    .wrapper h1 {
+        font-size: 40px;
+        margin: 0 0 10px 0;
+    }
+
+    .wrapper h2 {
+        font-size: 25px;
+        margin: 0 0 20px 0;
+    }
+
+    .wrapper p {
+        font-size: 14px;
+        display: block;
+        float: left;
+    }
+
+    .wrapper img {
+        width: 60%;
+        margin-top: 3%;
+    }
 }
 
 .clearfix:after {

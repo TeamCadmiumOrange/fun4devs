@@ -25,7 +25,7 @@ $(document).ready(function () {
     });
 });
 
-$(window).bind('mousewheel', function (event) {
+$(window).bind('mousewheel DOMMouseScroll', function (event) {
     scrollToSlide(event);
 });
 
