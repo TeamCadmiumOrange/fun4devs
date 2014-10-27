@@ -147,6 +147,9 @@ div[id^="slide"] {
 .wrapper h2 {
     font-size: 40px;
 }
+.wrapper h2 a{
+	color:black;
+}
 
 .wrapper p {
     font-size: 18px;
