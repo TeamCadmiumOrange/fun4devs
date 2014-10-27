@@ -154,7 +154,7 @@ div[id^="slide"] {
     float: left;
 }
 
-.wrapper img {
+.wrapper > img {
     width: 50%;
     margin: 0 auto;
     margin-top: 8%;
