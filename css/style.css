@@ -28,7 +28,6 @@ div[id^="slide"] {
     min-height: 600px;
     padding: 50px 20px 0 20px;
 	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png) !important;
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .vertical-menu {
