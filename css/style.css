@@ -163,12 +163,20 @@ div[id^="slide"] {
     margin-top: 8%;
 }
 
-.persons {
+.wrapper.clearfix {
+     margin-top: 0;
+}
+
+.people {
     display: flex;
 }
 
 .person {
     margin: 0 auto;
+}
+
+#slide-p2 a {
+    color: #ffffff;
 }
 
 @media screen and (max-width: 960px) {
@@ -214,6 +222,10 @@ div[id^="slide"] {
         font-size: 35px;
     }
 
+        .wrapper h1.phases-heading {
+            margin-top: 20%;
+        }
+
     .wrapper h2 {
         font-size: 25px;
         margin: 0 0 20px 0;
@@ -246,6 +258,10 @@ div[id^="slide"] {
         font-size: 30px;
     }
 
+        .wrapper h1.phases-heading {
+            margin-top: 15%;
+        }
+
     .wrapper h2 {
         font-size: 20px;
         margin: 0 0 20px 0;
@@ -277,6 +293,10 @@ div[id^="slide"] {
     .wrapper h1 {
         font-size: 28px;
     }
+
+        .wrapper h1.phases-heading {
+            margin-top: 20%;
+        }
 
     .wrapper h2 {
         font-size: 18px;
