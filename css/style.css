@@ -19,6 +19,10 @@ body {
     cursor: pointer;
 }
 
+#logo img {
+    width: 100px;
+}
+
 div[id^="slide"] {
     position: relative;
     min-height: 600px;
@@ -179,11 +183,12 @@ div[id^="slide"] {
     .wrapper {
         width: 85%;
         height: 60%;
+        margin-top:60px;
     }
 
     .wrapper h1 {
         font-size: 50px;
-        margin: 0 0 10px 0;
+        margin: 30px 0 10px 0;
     }
 
     .wrapper h2 {
@@ -211,11 +216,12 @@ div[id^="slide"] {
     .wrapper {
         width: 95%;
         height: 60%;
+        margin-top: 40px;
     }
 
     .wrapper h1 {
-        font-size: 40px;
-        margin: 0 0 10px 0;
+        font-size: 35px;
+        margin: 30px 0 10px 0;
     }
 
     .wrapper h2 {
@@ -224,7 +230,7 @@ div[id^="slide"] {
     }
 
     .wrapper p {
-        font-size: 16px;
+        font-size: 14px;
         display: block;
         float: left;
     }
@@ -235,6 +241,38 @@ div[id^="slide"] {
     }
 }
 
+@media screen and (max-width: 640px) {
+    .vertical-menu {
+        display: none;
+    }
+
+    .wrapper {
+        width: 95%;
+        height: 60%;
+        margin-top: 20px;
+    }
+
+    .wrapper h1 {
+        font-size: 30px;
+        margin: 30px 0 10px 0;
+    }
+
+    .wrapper h2 {
+        font-size: 20px;
+        margin: 0 0 20px 0;
+    }
+
+    .wrapper p {
+        font-size: 13px;
+        display: block;
+        float: left;
+    }
+
+    .wrapper img {
+        width: 60%;
+        margin-top: 4%;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .vertical-menu {
@@ -244,20 +282,21 @@ div[id^="slide"] {
     .wrapper {
         width: 95%;
         height: 60%;
+        margin-top: 20px;
     }
 
     .wrapper h1 {
-        font-size: 40px;
-        margin: 0 0 10px 0;
+        font-size: 28px;
+        margin: 30px 0 10px 0;
     }
 
     .wrapper h2 {
-        font-size: 25px;
+        font-size: 18px;
         margin: 0 0 20px 0;
     }
 
     .wrapper p {
-        font-size: 14px;
+        font-size: 12px;
         display: block;
         float: left;
     }
