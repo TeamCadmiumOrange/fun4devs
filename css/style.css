@@ -27,6 +27,8 @@ div[id^="slide"] {
     position: relative;
     min-height: 600px;
     padding: 50px 20px 0 20px;
+	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .vertical-menu {
@@ -50,87 +52,73 @@ div[id^="slide"] {
 
 .content #slide-home {
     background: #647de3;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
 }
 
 .content #slide-p1 {
     background: #536fdf;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
 }
 
 .content #slide-p2 {
     background: #4160dc;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
 }
 
 .content #slide-p3 {
     background: #3052d9;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
 }
 
 .content #slide-p4 {
     background: #2648cf;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
 }
 
 .content #slide-p5 {
     background: #2240ba;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
 }
 
 .content #slide-p6 {
     background: #203cac;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
 }
 
 .content #slide-p7 {
     background: #1c369b;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
 }
 
 .content #slide-p8 {
     background: #19308a;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
 }
 
 .content #slide-p9 {
     background: #162a79;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
 }
 
 .content #slide-p10 {
     background: #132467;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
 }
 
 .content #slide-p11 {
     background: #101e56;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
 }
 
 .content #slide-p12 {
     background: #0d1845;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
 	
 }
 
 .content #slide-p13 {
     background: #101e56;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
-	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	
 }
 
 .wrapper {
