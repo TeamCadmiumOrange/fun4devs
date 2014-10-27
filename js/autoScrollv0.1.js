@@ -25,11 +25,8 @@ $(document).ready(function () {
     });
 });
 
+// desktop
 $(window).bind('mousewheel DOMMouseScroll', function (event) {
-    scrollToSlide(event);
-});
-
-$(window).bind('touchmove', function (event) {
     scrollToSlide(event);
 });
 
@@ -47,6 +44,20 @@ $(document).keydown(function(e) {
         default: return;
     }
     e.preventDefault();
+});
+
+// mobile
+var lastY;
+$(document).bind('touchmove', function (e){
+     var currentY = e.originalEvent.touches[0].clientY;
+     if(currentY > lastY){
+        e.preventDefault();
+        scrollToPrew();
+     }else{
+        e.preventDefault();
+        scrollToNext();
+     }
+     lastY = currentY;
 });
 
 function scrollToSlide(event) {
