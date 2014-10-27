@@ -11,8 +11,6 @@ body {
     cursor: pointer;
     text-align: center;
     background-color: #ffffff;
-    background-image: url(http://www.transparenttextures.com/patterns/arches.png);
-    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 #logo {
@@ -139,8 +137,12 @@ div[id^="slide"] {
 
 .wrapper h1 {
     font-size: 60px;
-    margin: 0;
+    margin-top: 23%;
 }
+
+    .wrapper h1.phases-heading {
+        margin-top: 7%;
+    }
 
 .wrapper h2 {
     font-size: 40px;
@@ -175,7 +177,6 @@ div[id^="slide"] {
 
     .wrapper h1 {
         font-size: 50px;
-        margin: 30px 0 10px 0;
     }
 
     .wrapper h2 {
@@ -208,7 +209,6 @@ div[id^="slide"] {
 
     .wrapper h1 {
         font-size: 35px;
-        margin: 30px 0 10px 0;
     }
 
     .wrapper h2 {
@@ -241,7 +241,6 @@ div[id^="slide"] {
 
     .wrapper h1 {
         font-size: 30px;
-        margin: 30px 0 10px 0;
     }
 
     .wrapper h2 {
@@ -274,7 +273,6 @@ div[id^="slide"] {
 
     .wrapper h1 {
         font-size: 28px;
-        margin: 30px 0 10px 0;
     }
 
     .wrapper h2 {
