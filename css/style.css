@@ -42,6 +42,12 @@ div[id^="slide"] {
 .vertical-menu-button-text {
     font-size: 30px;
 }
+.active{
+	background-color: #d0d0d0;
+}
+.MenuButton:hover{
+	background-color: #7186DB !important;
+}
 
 .content {
     color: white;
