@@ -42,12 +42,6 @@ div[id^="slide"] {
 .vertical-menu-button-text {
     font-size: 30px;
 }
-.active{
-	background-color: #d0d0d0;
-}
-.MenuButton:hover{
-	background-color: #7186DB !important;
-}
 
 .content {
     color: white;
@@ -198,6 +192,7 @@ div[id^="slide"] {
 
     .wrapper h1 {
         font-size: 50px;
+        margin-top: 20%;
     }
 
     .wrapper h2 {
@@ -230,6 +225,7 @@ div[id^="slide"] {
 
     .wrapper h1 {
         font-size: 35px;
+        margin-top: 15%;
     }
 
         .wrapper h1.phases-heading {
@@ -266,6 +262,7 @@ div[id^="slide"] {
 
     .wrapper h1 {
         font-size: 30px;
+        margin-top: 40%;
     }
 
         .wrapper h1.phases-heading {
@@ -306,6 +303,7 @@ div[id^="slide"] {
 
     .wrapper h1 {
         font-size: 28px;
+        margin-top: 50%;
     }
 
         .wrapper h1.phases-heading {
