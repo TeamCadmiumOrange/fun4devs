@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    window.location.hash = "slide-p0"
+    window.location.hash = "slide-p1"
     var hash = window.location.hash;
     var num = hash.substr(8, 2);
     var count = $(".content").children().length;
