@@ -184,10 +184,15 @@ div[id^="slide"] {
 	
 	.person h3:hover{
 		color:#000000;
+
+	}
+	.person {
+		text-decoration: none !important;
 	}
 
 #slide-p2 a {
     color: #ffffff;
+	
 }
 
 @media screen and (max-width: 960px) {
