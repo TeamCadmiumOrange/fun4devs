@@ -171,12 +171,20 @@ div[id^="slide"] {
 
 .person {
     display: inline-block;
-    margin: 0 auto;
+	margin: 0 15px;
 }
 
     .person img {
         margin: 0 auto;
     }
+	
+	.person h3{
+		color:#ffffff;
+	}
+	
+	.person h3:hover{
+		color:#000000;
+	}
 
 #slide-p2 a {
     color: #ffffff;
