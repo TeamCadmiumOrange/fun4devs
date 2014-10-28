@@ -2,17 +2,7 @@ body {
     overflow-y: hidden;
 }
 
-#page {
-    font-size: 12px;
-    font-weight: bold;
-    width: 56px;
-    margin-bottom: 5px !important;
-    padding: 6px !important;
-    cursor: pointer;
-    text-align: center;
-    background-color: #ffffff;
-}
-
+/******************** HEADER **********************/
 #logo {
     cursor: pointer;
 }
@@ -21,13 +11,7 @@ body {
     width: 100px;
 }
 
-div[id^="slide"] {
-    position: relative;
-    min-height: 600px;
-    padding: 50px 20px 0 20px;
-    background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png) !important;
-}
-
+/******************** VERTICAL MENU **********************/
 .vertical-menu {
     position: fixed;
     top: 40%;
@@ -43,10 +27,30 @@ div[id^="slide"] {
     font-size: 30px;
 }
 
+#page {
+    font-size: 12px;
+    font-weight: bold;
+    width: 56px;
+    margin-bottom: 5px !important;
+    padding: 6px !important;
+    cursor: pointer;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/******************** CONTENT **********************/
 .content {
     color: white;
 }
 
+div[id^="slide"] {
+    position: relative;
+    min-height: 600px;
+    padding: 50px 20px 0 20px;
+    background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png) !important;
+}
+
+/******************** SLIDES COLORS **********************/
 .content #slide-p0 {
     background: #647de3;
 }
@@ -103,6 +107,7 @@ div[id^="slide"] {
     background: #101e56;
 }
 
+/******************** CONTENT IN WAPPERS **********************/
 .wrapper {
     position: absolute;
     top: 0;
@@ -116,73 +121,74 @@ div[id^="slide"] {
     border-radius: 15px;
 }
 
-#slide-p1 .wrapper {
-    height: 70%;
-}
-
-.wrapper h1 {
-    font-size: 60px;
-    margin-top: 20%;
-}
-
-    .wrapper h1.phases-heading {
-        margin-top: 7%;
+    #slide-p1 .wrapper {
+        height: 70%;
     }
 
-.wrapper h2 {
-    font-size: 40px;
-}
+    .wrapper h1 {
+        font-size: 60px;
+        margin-top: 20%;
+    }
 
-.wrapper p {
-    font-size: 18px;
-    display: block;
-    float: left;
-}
+        .wrapper h1.phases-heading {
+            margin-top: 7%;
+        }
 
-.wrapper > img {
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 8%;
-}
+    .wrapper h2 {
+        font-size: 40px;
+    }
 
-.wrapper.clearfix {
-     margin-top: 0;
-}
+    .wrapper p {
+        font-size: 18px;
+        display: block;
+        float: left;
+    }
+
+    .wrapper > img {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 8%;
+    }
+
+    .wrapper.clearfix {
+         margin-top: 0;
+    }
 
 .people {
     display: flex;
     flex-wrap: wrap;
 }
 
-.person {
-    display: inline-block;
-    margin: 0 auto;
-    text-decoration: none !important;
-}
-
-    .person img {
+    .person {
+        display: inline-block;
         margin: 0 auto;
-        filter: grayscale(100%);
-        -webkit-filter: grayscale(100%); /* For Webkit browsers */
-        filter: gray; /* For IE 6 - 9 */
-        -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
-        filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+        text-decoration: none !important;
     }
 
-    .person:hover img {
-        filter: grayscale(0%);
-        -webkit-filter: grayscale(0%); /* For Webkit browsers */
-        filter: none; /* For IE 6 - 9 */
-    }
+        .person img {
+            margin: 0 auto;
+            filter: grayscale(100%);
+            -webkit-filter: grayscale(100%); /* For Webkit browsers */
+            filter: gray; /* For IE 6 - 9 */
+            -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+            filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+        }
 
-    .person h3{
-        color: #ffffff;
-    }
+            .person:hover img {
+                filter: grayscale(0%);
+                -webkit-filter: grayscale(0%); /* For Webkit browsers */
+                filter: none; /* For IE 6 - 9 */
+            }
+
+        .person h3{
+            color: #ffffff;
+        }
 
 #slide-p2 a {
     color: #ffffff;
 }
 
+/******************** 960px **********************/
 @media screen and (max-width: 960px) {
     .wrapper {
         width: 85%;
@@ -212,6 +218,7 @@ div[id^="slide"] {
     }
 }
 
+/******************** 768px **********************/
 @media screen and (max-width: 768px) {
     .vertical-menu {
         display: none;
@@ -249,6 +256,7 @@ div[id^="slide"] {
     }
 }
 
+/******************** 640px **********************/
 @media screen and (max-width: 640px) {
     .vertical-menu {
         display: none;
@@ -290,6 +298,7 @@ div[id^="slide"] {
     }
 }
 
+/******************** 320px **********************/
 @media screen and (max-width: 320px) {
     .vertical-menu {
         display: none;
